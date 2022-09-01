@@ -1,0 +1,212 @@
+:root{
+    --primary-color: #34d399;
+    --tertiary-color:#1e40af;
+    --secondary-color: #db2777;
+    --off-white: #fdf2f8;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+button{
+    margin: 1rem auto 1rem auto;
+    padding: 0.5rem 1rem;
+    border-radius: 0.8rem;
+    font-size: x-large;
+    color: var(--tertiary-color);
+    border: 1px solid var(--tertiary-color);
+    background-color: var(--off-white);
+    cursor: pointer;
+}
+
+#div-output{
+
+    margin: 1rem auto;
+    color: var(--secondary-color);
+    font-size: x-large;
+    font-weight: 700;
+}
+
+#div-gif{
+    margin: auto;
+    height: 200px;
+    
+}
+
+
+.special-input{
+    text-align: center;
+    color: var(--tertiary-color);
+    border: 1px solid var(--tertiary-color);
+    border-radius: 1rem;
+    height: 2.5rem;
+    width: 10rem;
+    margin: 2rem 1.5rem 1rem 0.5rem;
+    font-size: large;
+}
+
+input{
+    text-align: center;
+    color: var(--tertiary-color);
+    border: 1px solid var(--tertiary-color);
+    border-radius: 1rem;
+    height: 2.5rem;
+    width: 10rem;
+    margin: 2rem 1.5rem 1rem ;
+    font-size: large;
+}
+
+
+
+label{
+    text-align: center;
+    color: var(--tertiary-color);
+    font-size: large;
+    margin: auto;
+}
+
+
+
+h1{
+    color: var(--secondary-color);
+    text-align: center;
+    margin: 2.5rem;
+    
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+
+}
+.container{
+    margin: auto;
+    max-width: 1000px;
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+   
+ }
+
+
+ .list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem 0rem 0rem;
+ }
+
+ .list-non-bullet {
+    list-style: none;
+ }
+
+
+.footer .link {
+    color: white;
+    text-decoration: none;
+    display: inline;
+    
+}
+
+.footer ul{
+    display: inline;
+    padding-inline-start: 0px;
+}
+
+
+
+.footer {
+    margin-top: 2rem;
+    color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    padding: 0.3rem;
+    text-align: center;
+  
+    
+}
+
+.footer-header {
+    padding-top: 0rem;
+    padding-bottom: 0.8rem;
+    font-size: large;
+}
+.footer-social{
+    color: var(--tertiary-color);
+    padding-top: 0.7rem;
+    padding-bottom: 0.4rem;
+    font-size: large;
+}
+
+
+.footer .linkedinlogo{
+    width: 60px;
+}
+
+.footer .twitterlogo{
+    width: 50px;
+}
+
+.footer .githublogo{
+    width: 70px;
+    position: relative; bottom: 5px;
+}
+
+@media(max-width:520px){
+    h1{
+        color: var(--secondary-color);
+        text-align: center;
+        margin: 1rem;
+        
+    }
+    
+    
+    .footer {
+        color: var(--tertiary-color);
+        background-color: var(--primary-color);
+        padding: 0.2rem;
+        text-align: center;
+        
+        
+    }
+    .footer .githublogo{
+        width: 70px;
+        position: relative; bottom: 3px;
+    }
+    .footer-header {
+        color: var(--tertiary-color);
+        padding-top: 0rem;
+        padding-bottom: 0.8rem;
+        font-size: medium;
+    }
+
+}
+@media(max-height:610px){
+
+    h1{
+        color: var(--secondary-color);
+        text-align: center;
+        margin: 1rem;
+        
+    }
+
+    .footer {
+        color: var(--tertiary-color);
+        background-color: var(--primary-color);
+        padding: 0.2rem;
+        text-align: center;
+        
+        
+    }
+    .footer .githublogo{
+        width: 70px;
+        position: relative; bottom: 3px;
+    }
+    .footer-header {
+        color: var(--tertiary-color);
+        padding-top: 0rem;
+        padding-bottom: 0.8rem;
+        font-size: large;
+    }
+
+}
