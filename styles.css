@@ -164,6 +164,13 @@ body{
         
     }
     
+    .footer .linkedinlogo{
+        width: 2.5rem;
+    }
+    
+    .footer .twitterlogo{
+        width: 2.3rem;
+    }
     
     .footer {
         color: var(--tertiary-color);
@@ -174,7 +181,7 @@ body{
         
     }
     .footer .githublogo{
-        width: 70px;
+        width: 3rem;
         position: relative; bottom: 3px;
     }
     .footer-header {
@@ -184,8 +191,16 @@ body{
         font-size: medium;
     }
 
+    button:hover {
+        background-color: var(--secondary-color);
+      }
+
 }
 @media(max-height:610px){
+
+    button:hover {
+        background-color: var(--secondary-color);
+      }
 
     h1{
         color: var(--secondary-color);
