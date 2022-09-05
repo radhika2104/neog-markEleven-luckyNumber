@@ -13,6 +13,7 @@ This is an app which takes in user's input of birthday and validates if it is a 
 - Shows the output if the birthdate is lucky or not to the user depending on the calculated results.
 - Shows the result to the user with some cool gifs.
 - Bonus Features: has footer that connects to all social media accounts.
+- Bonus Features: button's color change using pseudo-classes selector based on hover state
 - Bonus Features: app is responsive.
 
 ## Learnings
