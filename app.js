@@ -48,8 +48,10 @@ function checkLucky(luckyNumber){
 
 };
 
-function checkValidNumber(luckyNumber){
-    if (luckyNumber < 0){
+function checkValidNumber(luckyNumber,birthday){
+    if (birthday.length === 0) {
+        var message = 'Hey! You can\'t be lucky if you are not born yet. Please enter a date!'
+    } else if (luckyNumber < 0){
         var message = 'Hey! Lucky is always positive. Consider a different number'
     } else if (luckyNumber === 0){
         var message = 'Hey! Your fate is not defined if lucky number is 0 or strings!'
@@ -67,7 +69,7 @@ function checkValidNumber(luckyNumber){
 checkButton.addEventListener("click",function(){
     var birthday = birthdayInput.value;
     var luckyNumber = Number(NumberInput.value)
-    var valid = checkValidNumber(luckyNumber)
+    var valid = checkValidNumber(luckyNumber,birthday)
     if (valid === true) {
         // calculate sum of digits of bday
         birthday = birthday.replaceAll("-","");
