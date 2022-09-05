@@ -7,6 +7,10 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
+button:hover {
+    background-color: var(--secondary-color);
+  }
+
 button{
     margin: 1rem auto 1rem auto;
     padding: 0.5rem 1rem;
