@@ -28,6 +28,6 @@ HTML, CSS and Javascript.
 
 ## URL for App
 
-URL - https://fun-triangles-radhika.netlify.app/
+URL - https://lucky-birthday-radhika.netlify.app/
 
 This app is hosted using netlify.
