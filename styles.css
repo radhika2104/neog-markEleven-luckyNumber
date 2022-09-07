@@ -59,6 +59,15 @@ input{
     font-size: large;
 }
 
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 
 
 label{
